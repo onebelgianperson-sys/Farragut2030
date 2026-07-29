@@ -90,10 +90,10 @@
       const xPct = clamp(
         slot * index + slot * (0.22 + 0.56 * rand01(slug, "x")),
         7,
-        93
+        90
       );
-      const band = index % 2 === 0 ? 24 : 42;
-      const yPct = clamp(band + rand01(slug, "y") * 16, 14, 58);
+      const band = index % 2 === 0 ? 20 : 34;
+      const yPct = clamp(band + rand01(slug, "y") * 14, 16, 58);
       const chainLen = Math.round(150 + rand01(slug, "chain") * 190);
       const swayDur = (4.5 + rand01(slug, "dur") * 3).toFixed(2);
       const swayDelay = (rand01(slug, "delay") * 4).toFixed(2);
@@ -135,12 +135,14 @@
       FIELD.appendChild(marker);
     });
 
-    // A dashed "more entries" marker linking to the full directory
+    // A dashed "more entries" marker linking to the full directory.
+    // Give it the opposite band from the last mine so their labels never share a row.
     const moreSlot = 100 / (n + 1);
+    const moreBand = n % 2 === 0 ? 20 : 34;
     const moreMarker = document.createElement("div");
     moreMarker.className = "mine-marker";
-    moreMarker.style.left = clamp(moreSlot * n + moreSlot * 0.5, 7, 93).toFixed(2) + "%";
-    moreMarker.style.top = "20%";
+    moreMarker.style.left = clamp(moreSlot * n + moreSlot * 0.5, 7, 90).toFixed(2) + "%";
+    moreMarker.style.top = moreBand + "%";
 
     const moreChain = document.createElement("div");
     moreChain.className = "mine-chain";

@@ -24,7 +24,7 @@
   function renderCompany(c) {
     document.title = c.name + " — Farragut2030";
 
-    const badges = [c.country, c.focus, c.autonomyLevel]
+    const badges = [c.country, c.autonomyLevel]
       .filter(Boolean)
       .map((b) => `<span class="badge">${escapeHtml(b)}</span>`)
       .join("");
@@ -93,7 +93,6 @@
             <h2>Key Facts</h2>
             <ul class="fact-list">
               <li><span>Country</span><span>${escapeHtml(c.country || "—")}</span></li>
-              <li><span>Focus</span><span>${escapeHtml(c.focus || "—")}</span></li>
               <li><span>Autonomy level</span><span>${escapeHtml(c.autonomyLevel || "—")}</span></li>
               <li><span>Founded</span><span>${escapeHtml(c.founded || "—")}</span></li>
             </ul>

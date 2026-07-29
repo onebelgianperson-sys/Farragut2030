@@ -5,7 +5,6 @@
     "placeholder": false,
     "country": "Germany",
     "founded": 1902,
-    "focus": "Naval / Underwater",
     "autonomyLevel": "Mixed (semi-automatic to fully autonomous, by product line)",
     "website": "https://www.atlas-elektronik.com",
     "summary": "Atlas Elektronik is a German naval defense electronics company headquartered in Bremen, with a corporate lineage tracing to 1902. Now a wholly owned subsidiary of thyssenkrupp Marine Systems (TKMS), it is one of the longest-established suppliers of mine countermeasure (MCM) systems, producing a family of remotely operated and autonomous underwater vehicles used by NATO and allied navies for mine detection, classification, and neutralization.",
@@ -24,14 +23,26 @@
       }
     ],
     "contracts": [
-      "Awarded a £32 million contract in April 2022 by the UK Ministry of Defence's Defence Equipment & Support (DE&S) Mine Hunting Capability team, covering 3 SeaCat AUV systems (9 vehicles total) plus a 3-year training and support package for the Royal Navy."
+      "Awarded a \u00a332 million contract in April 2022 by the UK Ministry of Defence's Defence Equipment & Support (DE&S) Mine Hunting Capability team, covering 3 SeaCat AUV systems (9 vehicles total) plus a 3-year training and support package for the Royal Navy."
     ],
     "funding": "Not independently funded or venture-backed. Atlas Elektronik is a wholly owned subsidiary of thyssenkrupp Marine Systems (TKMS), acquired in full in April 2017 after previously being jointly owned by ThyssenKrupp and Airbus Defence and Space (formerly EADS).",
     "sources": [
-      { "label": "Atlas Elektronik — Wikipedia", "url": "https://en.wikipedia.org/wiki/Atlas_Elektronik" },
-      { "label": "Seafox drone — Wikipedia", "url": "https://en.wikipedia.org/wiki/Seafox_drone" },
-      { "label": "AEUK to Deliver SeaCat Mine Hunting AUV to the Royal Navy — Naval News", "url": "https://www.navalnews.com/naval-news/2022/04/aeuk-to-deliver-seacat-mine-hunting-auv-to-the-royal-navy/" },
-      { "label": "£32 million mine-hunting systems contract — UK Ministry of Defence (DE&S)", "url": "https://des.mod.uk/mine-hunting-systems-contract" }
+      {
+        "label": "Atlas Elektronik \u2014 Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Atlas_Elektronik"
+      },
+      {
+        "label": "Seafox drone \u2014 Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Seafox_drone"
+      },
+      {
+        "label": "AEUK to Deliver SeaCat Mine Hunting AUV to the Royal Navy \u2014 Naval News",
+        "url": "https://www.navalnews.com/naval-news/2022/04/aeuk-to-deliver-seacat-mine-hunting-auv-to-the-royal-navy/"
+      },
+      {
+        "label": "\u00a332 million mine-hunting systems contract \u2014 UK Ministry of Defence (DE&S)",
+        "url": "https://des.mod.uk/mine-hunting-systems-contract"
+      }
     ]
   },
   {
@@ -40,7 +51,6 @@
     "placeholder": true,
     "country": "United States",
     "founded": 2016,
-    "focus": "Naval / Underwater",
     "autonomyLevel": "Fully autonomous (AUV)",
     "website": "https://example.com/deepward-marine",
     "summary": "Placeholder entry. Deepward Marine Systems develops autonomous underwater vehicles (AUVs) for mine detection and neutralization in littoral waters, using synthetic-aperture sonar and onboard classification models.",
@@ -59,7 +69,10 @@
     ],
     "funding": "Placeholder: reported venture and government-research funding rounds; figures not yet verified.",
     "sources": [
-      { "label": "Company website (placeholder)", "url": "https://example.com/deepward-marine" }
+      {
+        "label": "Company website (placeholder)",
+        "url": "https://example.com/deepward-marine"
+      }
     ]
   },
   {
@@ -68,7 +81,6 @@
     "placeholder": true,
     "country": "United Kingdom",
     "founded": 2013,
-    "focus": "Naval / Underwater",
     "autonomyLevel": "Supervised autonomy",
     "website": "https://example.com/iron-fathom-robotics",
     "summary": "Placeholder entry. Iron Fathom Robotics builds unmanned surface vessels (USVs) that tow sonar arrays for wide-area mine hunting, designed to keep crewed vessels out of mined waters.",
@@ -83,7 +95,10 @@
     ],
     "funding": "Placeholder: privately held; funding history not yet verified.",
     "sources": [
-      { "label": "Company website (placeholder)", "url": "https://example.com/iron-fathom-robotics" }
+      {
+        "label": "Company website (placeholder)",
+        "url": "https://example.com/iron-fathom-robotics"
+      }
     ]
   },
   {
@@ -92,7 +107,6 @@
     "placeholder": true,
     "country": "Australia",
     "founded": 2019,
-    "focus": "Naval / Underwater",
     "autonomyLevel": "Fully autonomous (swarm)",
     "website": "https://example.com/sable-current-defense",
     "summary": "Placeholder entry. Sable Current Defense is developing swarms of small autonomous underwater gliders intended to cooperatively map minefields and relay classification data to a command vessel.",
@@ -111,31 +125,10 @@
     ],
     "funding": "Placeholder: seed and Series A rounds reported; figures not yet verified.",
     "sources": [
-      { "label": "Company website (placeholder)", "url": "https://example.com/sable-current-defense" }
-    ]
-  },
-  {
-    "slug": "north-anchor-uxo",
-    "name": "North Anchor UXO Solutions",
-    "placeholder": true,
-    "country": "Norway",
-    "founded": 2011,
-    "focus": "Land / UXO",
-    "autonomyLevel": "Remote-operated with autonomous survey mode",
-    "website": "https://example.com/north-anchor-uxo",
-    "summary": "Placeholder entry. North Anchor UXO Solutions builds tracked robotic platforms for landmine and unexploded ordnance (UXO) survey and clearance, combining ground-penetrating radar with autonomous route planning for humanitarian demining.",
-    "products": [
       {
-        "name": "Furrow-9 Platform",
-        "description": "Placeholder product description: a tracked robotic vehicle equipped with ground-penetrating radar for landmine and UXO detection in humanitarian clearance operations."
+        "label": "Company website (placeholder)",
+        "url": "https://example.com/sable-current-defense"
       }
-    ],
-    "contracts": [
-      "Placeholder: illustrative partnership with a humanitarian demining NGO for field trials."
-    ],
-    "funding": "Placeholder: grant-funded with some private investment; figures not yet verified.",
-    "sources": [
-      { "label": "Company website (placeholder)", "url": "https://example.com/north-anchor-uxo" }
     ]
   }
 ]

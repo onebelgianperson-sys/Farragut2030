@@ -7,7 +7,6 @@
   const emptyState = document.getElementById("emptyState");
   const searchInput = document.getElementById("searchInput");
   const filterCountry = document.getElementById("filterCountry");
-  const filterFocus = document.getElementById("filterFocus");
   const filterAutonomy = document.getElementById("filterAutonomy");
   const headers = document.querySelectorAll(".directory__table thead th");
 
@@ -27,24 +26,20 @@
 
   function populateFilterOptions(companies) {
     const countries = uniqueSorted(companies.map((c) => c.country));
-    const focuses = uniqueSorted(companies.map((c) => c.focus));
     const autonomyLevels = uniqueSorted(companies.map((c) => c.autonomyLevel));
 
     countries.forEach((v) => filterCountry.add(new Option(v, v)));
-    focuses.forEach((v) => filterFocus.add(new Option(v, v)));
     autonomyLevels.forEach((v) => filterAutonomy.add(new Option(v, v)));
   }
 
   function applyFiltersAndSort() {
     const query = searchInput.value.trim().toLowerCase();
     const country = filterCountry.value;
-    const focus = filterFocus.value;
     const autonomy = filterAutonomy.value;
 
     let filtered = allCompanies.filter((c) => {
       if (query && !c.name.toLowerCase().includes(query)) return false;
       if (country && c.country !== country) return false;
-      if (focus && c.focus !== focus) return false;
       if (autonomy && c.autonomyLevel !== autonomy) return false;
       return true;
     });
@@ -76,7 +71,6 @@
         <tr>
           <td><a href="company.html?slug=${encodeURIComponent(c.slug)}">${escapeHtml(c.name)}</a></td>
           <td>${escapeHtml(c.country || "—")}</td>
-          <td>${escapeHtml(c.focus || "—")}</td>
           <td>${escapeHtml(c.autonomyLevel || "—")}</td>
           <td>${escapeHtml(c.founded || "—")}</td>
         </tr>`
@@ -99,7 +93,7 @@
     });
   });
 
-  [searchInput, filterCountry, filterFocus, filterAutonomy].forEach((el) => {
+  [searchInput, filterCountry, filterAutonomy].forEach((el) => {
     el.addEventListener("input", applyFiltersAndSort);
   });
 
@@ -111,7 +105,7 @@
       applyFiltersAndSort();
     })
     .catch((err) => {
-      tableBody.innerHTML = '<tr><td colspan="5">Could not load company data.</td></tr>';
+      tableBody.innerHTML = '<tr><td colspan="4">Could not load company data.</td></tr>';
       console.error(err);
     });
 })();

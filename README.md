@@ -2,7 +2,7 @@
 
 *"Damn the torpedoes, full speed ahead."*
 
-A research reference site cataloging companies developing autonomous and semi-autonomous mine-countermeasure (MCM) technology — naval mine detection/neutralization, unexploded ordnance (UXO) survey, and humanitarian landmine clearance. Built for researchers and policymakers who want a fast, structured orientation to the field.
+A research reference site cataloging companies developing autonomous and semi-autonomous naval mine-countermeasure (MCM) technology — mine detection, classification, and neutralization at sea. Built for researchers and policymakers who want a fast, structured orientation to the field.
 
 The homepage renders each company as a clickable sea mine in an animated underwater minefield. A plain sortable/filterable table view is also available for quick comparison.
 
@@ -34,7 +34,6 @@ Open [`data/companies.json`](data/companies.json) and add an entry following the
   "placeholder": false,
   "country": "Country",
   "founded": 2020,
-  "focus": "Naval / Underwater",
   "autonomyLevel": "Fully autonomous (AUV)",
   "website": "https://example.com",
   "summary": "One paragraph overview.",
