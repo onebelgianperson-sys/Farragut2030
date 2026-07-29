@@ -1,5 +1,40 @@
 [
   {
+    "slug": "atlas-elektronik",
+    "name": "Atlas Elektronik",
+    "placeholder": false,
+    "country": "Germany",
+    "founded": 1902,
+    "focus": "Naval / Underwater",
+    "autonomyLevel": "Mixed (semi-automatic to fully autonomous, by product line)",
+    "website": "https://www.atlas-elektronik.com",
+    "summary": "Atlas Elektronik is a German naval defense electronics company headquartered in Bremen, with a corporate lineage tracing to 1902. Now a wholly owned subsidiary of thyssenkrupp Marine Systems (TKMS), it is one of the longest-established suppliers of mine countermeasure (MCM) systems, producing a family of remotely operated and autonomous underwater vehicles used by NATO and allied navies for mine detection, classification, and neutralization.",
+    "products": [
+      {
+        "name": "SeaFox",
+        "description": "An expendable, semi-automatic mine disposal unmanned underwater vehicle (UUV) that identifies, classifies, and neutralizes sea mines and other ordnance. In service with numerous NATO navies since the early 2000s."
+      },
+      {
+        "name": "SeaCat",
+        "description": "A configurable hybrid ROV/AUV minehunting vehicle (roughly 2.5-3.5 m long, 130-220 kg depending on payload) fitted with high-resolution synthetic aperture sonar, operable to 600 m depth. Selected for the UK Royal Navy's Mine Hunting Capability programme."
+      },
+      {
+        "name": "SeaOtter Mk2",
+        "description": "A larger autonomous underwater vehicle (roughly 3.65 m long, ~1,100-1,200 kg) supporting mine countermeasure, ISR, and environmental-assessment payloads, with up to about 20 hours of endurance."
+      }
+    ],
+    "contracts": [
+      "Awarded a £32 million contract in April 2022 by the UK Ministry of Defence's Defence Equipment & Support (DE&S) Mine Hunting Capability team, covering 3 SeaCat AUV systems (9 vehicles total) plus a 3-year training and support package for the Royal Navy."
+    ],
+    "funding": "Not independently funded or venture-backed. Atlas Elektronik is a wholly owned subsidiary of thyssenkrupp Marine Systems (TKMS), acquired in full in April 2017 after previously being jointly owned by ThyssenKrupp and Airbus Defence and Space (formerly EADS).",
+    "sources": [
+      { "label": "Atlas Elektronik — Wikipedia", "url": "https://en.wikipedia.org/wiki/Atlas_Elektronik" },
+      { "label": "Seafox drone — Wikipedia", "url": "https://en.wikipedia.org/wiki/Seafox_drone" },
+      { "label": "AEUK to Deliver SeaCat Mine Hunting AUV to the Royal Navy — Naval News", "url": "https://www.navalnews.com/naval-news/2022/04/aeuk-to-deliver-seacat-mine-hunting-auv-to-the-royal-navy/" },
+      { "label": "£32 million mine-hunting systems contract — UK Ministry of Defence (DE&S)", "url": "https://des.mod.uk/mine-hunting-systems-contract" }
+    ]
+  },
+  {
     "slug": "deepward-marine",
     "name": "Deepward Marine Systems",
     "placeholder": true,
