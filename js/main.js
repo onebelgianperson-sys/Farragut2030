@@ -83,14 +83,17 @@
   function renderMines(companies) {
     FIELD.innerHTML = "";
     const n = companies.length;
+    // Mines and the trailing "more" marker share one partition of n+1 slots
+    // so no two markers can ever be pushed to the same clamped edge position.
+    const totalSlots = n + 1;
+    const slot = 100 / totalSlots;
 
     companies.forEach((company, index) => {
       const slug = company.slug;
-      const slot = 100 / n;
       const xPct = clamp(
-        slot * index + slot * (0.22 + 0.56 * rand01(slug, "x")),
+        slot * index + slot * (0.2 + 0.6 * rand01(slug, "x")),
         7,
-        90
+        93
       );
       const band = index % 2 === 0 ? 20 : 34;
       const yPct = clamp(band + rand01(slug, "y") * 14, 16, 58);
@@ -136,12 +139,12 @@
     });
 
     // A dashed "more entries" marker linking to the full directory.
-    // Give it the opposite band from the last mine so their labels never share a row.
-    const moreSlot = 100 / (n + 1);
+    // It takes the final slot in the same partition used above, and the
+    // opposite band from the last mine, so it can never collide with it.
     const moreBand = n % 2 === 0 ? 20 : 34;
     const moreMarker = document.createElement("div");
     moreMarker.className = "mine-marker";
-    moreMarker.style.left = clamp(moreSlot * n + moreSlot * 0.5, 7, 90).toFixed(2) + "%";
+    moreMarker.style.left = clamp(slot * n + slot * 0.5, 7, 93).toFixed(2) + "%";
     moreMarker.style.top = moreBand + "%";
 
     const moreChain = document.createElement("div");

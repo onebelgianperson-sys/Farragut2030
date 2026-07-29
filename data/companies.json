@@ -1,5 +1,93 @@
 [
   {
+    "slug": "kraken-robotics",
+    "name": "Kraken Robotics",
+    "placeholder": false,
+    "country": "Canada",
+    "founded": 2012,
+    "autonomyLevel": "Mixed (towed and remote systems to fully autonomous AUVs, by product line)",
+    "website": "https://www.krakenrobotics.com",
+    "summary": "Kraken Robotics is a Canadian marine technology company headquartered in Mount Pearl, Newfoundland and Labrador, founded in 2012 as Kraken Sonar Systems and rebranded in 2017. It is a leading developer of synthetic aperture sonar (SAS) and underwater robotics, supplying sensors, batteries, and towed and vehicle-mounted systems used in naval mine countermeasures and seabed survey, and has been publicly traded on the TSX since 2015.",
+    "products": [
+      {
+        "name": "KATFISH",
+        "description": "A modular, high-speed towed synthetic aperture sonar (SAS) system for mine countermeasures and seabed survey, deployable from crewed vessels or uncrewed surface vessels. Demonstrated autonomous launch and recovery from USVs including the UK Royal Navy's ARCIMS and Turkey's SEFINE RD-22, delivering approximately 3 cm x 3 cm resolution imagery live-streamed to shore-based command centers."
+      },
+      {
+        "name": "ThunderFish",
+        "description": "An autonomous underwater vehicle (AUV) rated to 6,000 m depth, equipped with Kraken's AquaPix MINSAS synthetic aperture sonar. Marketed for tasks including naval mine countermeasures, seabed survey, and habitat mapping; delivered in multiple variants including ThunderFish XL."
+      }
+    ],
+    "contracts": [
+      "Demonstrated KATFISH autonomous launch and recovery from a Turkish SEFINE RD-22 USV in coordination with SEFINE SISAM in Q1 2026, with participation from multiple navies and government organizations.",
+      "Previously demonstrated the KATFISH sonar and launch/recovery package from an 11-metre UK Royal Navy ARCIMS USV in November 2025, in partnership with TKMS ATLAS UK."
+    ],
+    "funding": "Publicly traded (TSX: PNG / OTC: KRKNF), not independently venture-funded; has grown through organic sonar/battery sales and acquisitions such as 3D at Depth (2025).",
+    "sources": [
+      { "label": "History — Kraken Robotics", "url": "https://krakenrobotics.com/about/history/" },
+      { "label": "Kraken Robotics Demonstrates KATFISH Autonomous Launch and Recovery from SEFINE USV — Naval News", "url": "https://www.navalnews.com/naval-news/2026/04/kraken-robotics-demonstrates-katfish-autonomous-launch-and-recovery-from-sefine-usv/" },
+      { "label": "Kraken and TKMS ATLAS UK Demo KATFISH USV Launch/Recovery — Kraken Robotics", "url": "https://www.krakenrobotics.com/news-releases/kraken-tkms-katfish-usv-launch-recovery-royal-navy/" },
+      { "label": "ThunderFish Autonomous Underwater Vehicle — Naval Technology", "url": "https://www.naval-technology.com/projects/thunderfish/" }
+    ]
+  },
+  {
+    "slug": "thales",
+    "name": "Thales",
+    "placeholder": false,
+    "country": "France",
+    "founded": 2000,
+    "autonomyLevel": "Mixed (AI-assisted mission management integrating AUV, ROV, and USV assets)",
+    "website": "https://www.thalesgroup.com",
+    "summary": "Thales is a French multinational aerospace, defense, and security group headquartered in Paris, formed in its current name in 2000 from the restructuring of Thomson-CSF (a lineage tracing to 1893). Its underwater warfare business develops the Maritime Mine Countermeasures (MMCM) programme, marketed as PathMaster: an AI-enabled system that integrates towed sonar, autonomous vehicles, and mission-management software to run mine-hunting missions from mother ships, small craft, or shore.",
+    "products": [
+      {
+        "name": "PathMaster (Maritime Mine Countermeasures)",
+        "description": "An integrated mine countermeasures system combining Towed Synthetic Aperture Sonar (TSAS), the MiMap sonar-analysis tool, and the M-Cube mission-management system. Uses Thales's cortAIx AI platform to process sonar data and classify mine-like contacts, coordinating autonomous underwater vehicles, remotely operated vehicles, and crewed minehunters in a single operational picture."
+      },
+      {
+        "name": "Expeditionary PathMaster",
+        "description": "A portable variant of PathMaster launched in 2026, packaged to let navies run full mine-clearance missions from shore, small vessels, or existing warships rather than dedicated minehunter ships."
+      }
+    ],
+    "contracts": [
+      "Awarded a contract worth up to £135 million (an initial £10 million tranche) by UK Defence Equipment & Support (DE&S) in December 2025 to deliver AI-enabled autonomous remote command centres for Royal Navy mine countermeasures.",
+      "Selected by the Republic of Singapore Navy to supply a cyber-secured, AI-powered autonomous mine countermeasures system.",
+      "Previously delivered autonomous mine countermeasures capability to the French Navy, which later PathMaster variants build on."
+    ],
+    "funding": "Publicly traded, diversified defense and technology group (Euronext Paris: HO); MMCM/PathMaster is developed within its broader underwater warfare business unit rather than as an independently funded venture.",
+    "sources": [
+      { "label": "PathMaster, Unmanned Mine Countermeasures — Thales Group", "url": "https://www.thalesgroup.com/en/markets/defence-and-security/naval-forces/underwater-warfare/pathmaster-unmanned-mine" },
+      { "label": "Thales secures major contract to transform Royal Navy mine countermeasures — Thales Group", "url": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-secures-major-contract-transform-royal-navy-mine-countermeasures" },
+      { "label": "Thales to provide a cyber-secured and AI-powered autonomous mine countermeasures system to the Republic of Singapore Navy — Thales Group", "url": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-provide-cyber-secured-and-ai-powered-autonomous-mine" },
+      { "label": "Thales launches Expeditionary PathMaster — Asia Pacific Defence Reporter", "url": "https://asiapacificdefencereporter.com/thales-launches-expeditionary-pathmaster-for-mine-countermeasures/" }
+    ]
+  },
+  {
+    "slug": "ocean-infinity",
+    "name": "Ocean Infinity",
+    "placeholder": false,
+    "country": "United Kingdom",
+    "founded": 2017,
+    "autonomyLevel": "Remote/autonomous surveillance (not marketed as mine-countermeasures-specific)",
+    "website": "https://oceaninfinity.com",
+    "summary": "Ocean Infinity is a marine robotics company founded in 2017, with dual headquarters in Southampton, UK and Austin, Texas, US. It operates one of the largest fleets of autonomous underwater vehicles (AUVs) and uncrewed surface vessels (USVs) in the world, providing ocean data, seabed survey, and mapping services across energy, telecommunications, and defense sectors. Its capabilities are adjacent to naval mine countermeasures (autonomous seabed survey and route mapping), though its flagship USV, Needlefish, is marketed for maritime surveillance and patrol rather than mine detection or neutralization.",
+    "products": [
+      {
+        "name": "Needlefish",
+        "description": "A 14-metre, twin-hulled uncrewed surface vessel (USV) capable of roughly 35 knots, carrying cameras, radar, and RF sensors for maritime patrol and surveillance with beyond-line-of-sight remote and autonomous operation. Publicly launched in 2026 with the Kuwaiti Coast Guard as its first customer. Note: Needlefish is documented by Ocean Infinity as a surveillance/patrol platform, not a dedicated mine-hunting system."
+      }
+    ],
+    "contracts": [
+      "Kuwaiti Coast Guard purchased Needlefish USVs plus twin remote control stations as the platform's inaugural customer."
+    ],
+    "funding": "Privately held; has raised capital to fund fleet expansion, including its 15-vessel Armada USV fleet launched in 2020. Detailed funding-round figures are not independently verified here.",
+    "sources": [
+      { "label": "Ocean Infinity launches NeedleFish USV in Kuwait — Ocean Infinity", "url": "https://oceaninfinity.com/news/ocean-infinity-launches-needlefish-usv-in-kuwait/" },
+      { "label": "Secretly developed Needlefish set to advance autonomous sea defense — Interesting Engineering", "url": "https://interestingengineering.com/military/high-speed-needlefish-advances-sea-defense" },
+      { "label": "Ocean Infinity — Wikipedia", "url": "https://en.wikipedia.org/wiki/Ocean_Infinity" }
+    ]
+  },
+  {
     "slug": "atlas-elektronik",
     "name": "Atlas Elektronik",
     "placeholder": false,
