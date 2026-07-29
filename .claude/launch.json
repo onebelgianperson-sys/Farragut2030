@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "farragut2030-static",
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": ["-c", "cd '/Users/elischotland/Desktop/NWC_Minesweeping' && python3 -m http.server 8420"],
+      "port": 8420
+    }
+  ]
+}

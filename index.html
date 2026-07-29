@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farragut2030 — Autonomous Mine Countermeasure Technology Directory</title>
+<meta name="description" content="A researcher's field guide to companies developing autonomous mine-countermeasure and demining technology.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2238%22 fill=%22%230b2942%22/><circle cx=%2250%22 cy=%2250%22 r=%2226%22 fill=%22%234fe3d1%22/></svg>">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="site-nav__brand">
+    <strong>FARRAGUT</strong>2030 <small>NWC Autonomous MCM Directory</small>
+  </div>
+  <ul class="site-nav__links">
+    <li><a href="index.html" aria-current="page">Minefield</a></li>
+    <li><a href="companies.html">Directory</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+
+<!-- Shared gradient/pattern defs used by every mine icon -->
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <radialGradient id="mineGradient" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#3f5a63"/>
+      <stop offset="55%" stop-color="#233d45"/>
+      <stop offset="100%" stop-color="#0f1e23"/>
+    </radialGradient>
+    <linearGradient id="hornGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a666f"/>
+      <stop offset="100%" stop-color="#1a2d33"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<header class="hero" id="top">
+  <img class="hero__photo" src="images/ocean-deep-rays.jpg" alt="" aria-hidden="true">
+  <div class="hero__overlay"></div>
+  <div class="hero__rays"></div>
+  <div class="bubble-layer" id="bubbleLayer" aria-hidden="true"></div>
+
+  <div class="hero__intro">
+    <p class="hero__eyebrow">Naval War College &middot; Research Reference</p>
+    <h1 class="hero__title">Farragut2030</h1>
+    <p class="hero__tagline">A living field guide to the companies building autonomous mine-detection, mine-neutralization, and demining technology — naval and land, present and near-future.</p>
+    <p class="hero__quote">&ldquo;Damn the torpedoes, full speed ahead.&rdquo;</p>
+  </div>
+
+  <div class="hero__field">
+    <div class="minefield" id="minefield" role="list" aria-label="Companies — click a mine to open its profile">
+      <p style="color:var(--ink-500); text-align:center; padding-top:2rem;" id="minefieldLoading">Loading minefield…</p>
+    </div>
+  </div>
+
+  <div class="hero__scroll-cue"><span></span>Scroll</div>
+</header>
+
+<section class="intro-strip">
+  <div class="container intro-strip__grid">
+    <div class="intro-card">
+      <h3>Click a mine</h3>
+      <p>Every mine in the field represents one company. Click or tap it — or tab to it and press Enter — to open a full profile: products, programs, contracts, and sources.</p>
+    </div>
+    <div class="intro-card">
+      <h3>Prefer a table?</h3>
+      <p>The <a href="companies.html">directory view</a> lists every entry in a sortable, filterable table — better for quick comparison across countries or autonomy levels.</p>
+    </div>
+    <div class="intro-card">
+      <h3>How entries are chosen</h3>
+      <p>See the <a href="about.html">About &amp; methodology</a> page for inclusion criteria and sourcing standards. This dataset starts small and grows over time.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    Farragut2030 is an independent research reference. Company data is compiled from public sources and is not exhaustive or authoritative. See <a href="about.html">methodology</a>.
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

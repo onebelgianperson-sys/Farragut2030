@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About &amp; Methodology — Farragut2030</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2238%22 fill=%22%230b2942%22/><circle cx=%2250%22 cy=%2250%22 r=%2226%22 fill=%22%234fe3d1%22/></svg>">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="site-nav__brand">
+    <strong>FARRAGUT</strong>2030 <small>NWC Autonomous MCM Directory</small>
+  </div>
+  <ul class="site-nav__links">
+    <li><a href="index.html">Minefield</a></li>
+    <li><a href="companies.html">Directory</a></li>
+    <li><a href="about.html" aria-current="page">About</a></li>
+  </ul>
+</nav>
+
+<div class="page-banner">
+  <img class="page-banner__photo" src="images/warship-silhouette.jpg" alt="" aria-hidden="true">
+  <div class="page-banner__overlay"></div>
+  <div class="page-banner__content">
+    <div class="container">
+      <p class="page-banner__eyebrow">About This Project</p>
+      <h1>About &amp; Methodology</h1>
+      <p>What Farragut2030 is, who it's for, and how entries are chosen and sourced.</p>
+    </div>
+  </div>
+</div>
+
+<main class="container about-content">
+  <h2>What this is</h2>
+  <p>Farragut2030 is a reference directory of companies developing autonomous and semi-autonomous mine-countermeasure (MCM) technology — spanning naval mine detection and neutralization, unexploded ordnance (UXO) survey, and humanitarian landmine clearance. It's built for researchers, analysts, and policymakers who need a quick, structured orientation to the industry, not a marketing showcase.</p>
+
+  <h2>Current status of the dataset</h2>
+  <p>The site currently ships with a small set of <strong>placeholder entries</strong> used to build and test the design. Placeholder companies are clearly marked on their profile pages and use fictitious names and example.com links — they do not describe real organizations. Real, sourced entries will replace these over time.</p>
+
+  <h2>Inclusion criteria</h2>
+  <p>An entry is in scope if the organization:</p>
+  <ul>
+    <li>Designs, builds, or substantially integrates autonomous or remotely-operated systems for mine/UXO detection, classification, or neutralization — naval or land.</li>
+    <li>Has public, verifiable information available (company site, government contract records, credible press, academic or industry publications).</li>
+    <li>Is an active, named organization — not a defunct program or a generic product line with no attributable developer.</li>
+  </ul>
+
+  <h2>Sourcing standard</h2>
+  <p>Each profile aims to cite primary or credible secondary sources for its factual claims — company materials, government procurement records, defense-industry press, and academic sources are preferred over unsourced aggregator listings. Every claim of contract, funding, or capability should be traceable to a source listed on that company's profile page. Where information can't be verified, it will be marked as such rather than omitted silently.</p>
+
+  <h2>Data structure</h2>
+  <p>All company data lives in a single file, <code>data/companies.json</code>, as plain structured records (name, country, focus area, autonomy level, products, contracts/funding, and sources). Adding a new company means adding one entry to that file — no code changes required, and the homepage minefield and directory table update automatically.</p>
+
+  <h2>Limitations</h2>
+  <p>This is an independent, unofficial reference maintained outside any government program. It is not exhaustive, is not vetted by any defense institution, and should not be the sole basis for procurement, investment, or policy decisions. Autonomy-level classifications are necessarily approximate, since companies describe their own systems inconsistently.</p>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    Farragut2030 is an independent research reference. Company data is compiled from public sources and is not exhaustive or authoritative.
+  </div>
+</footer>
+
+</body>
+</html>

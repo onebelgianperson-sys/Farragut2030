@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Directory — Farragut2030</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2238%22 fill=%22%230b2942%22/><circle cx=%2250%22 cy=%2250%22 r=%2226%22 fill=%22%234fe3d1%22/></svg>">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="site-nav__brand">
+    <strong>FARRAGUT</strong>2030 <small>NWC Autonomous MCM Directory</small>
+  </div>
+  <ul class="site-nav__links">
+    <li><a href="index.html">Minefield</a></li>
+    <li><a href="companies.html" aria-current="page">Directory</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+
+<div class="page-banner">
+  <img class="page-banner__photo" src="images/dark-sea-waves.jpg" alt="" aria-hidden="true">
+  <div class="page-banner__overlay"></div>
+  <div class="page-banner__content">
+    <div class="container">
+      <p class="page-banner__eyebrow">Full Directory</p>
+      <h1>Company Directory</h1>
+      <p>Search, filter, and sort every entry in the dataset. Click a name to open its full profile.</p>
+    </div>
+  </div>
+</div>
+
+<main class="container directory">
+  <div class="directory__controls">
+    <div class="directory__search">
+      <input type="search" id="searchInput" placeholder="Search by name…" aria-label="Search companies by name">
+    </div>
+    <select id="filterCountry" aria-label="Filter by country">
+      <option value="">All countries</option>
+    </select>
+    <select id="filterFocus" aria-label="Filter by focus area">
+      <option value="">All focus areas</option>
+    </select>
+    <select id="filterAutonomy" aria-label="Filter by autonomy level">
+      <option value="">All autonomy levels</option>
+    </select>
+  </div>
+
+  <p class="directory__count" id="resultCount"></p>
+
+  <div class="directory__table-wrap">
+    <table class="directory__table">
+      <thead>
+        <tr>
+          <th data-key="name">Company</th>
+          <th data-key="country">Country</th>
+          <th data-key="focus">Focus</th>
+          <th data-key="autonomyLevel">Autonomy Level</th>
+          <th data-key="founded">Founded</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <tr><td colspan="5">Loading…</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="directory__empty" id="emptyState" hidden>No companies match your filters.</p>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    Farragut2030 is an independent research reference. Company data is compiled from public sources and is not exhaustive or authoritative. See <a href="about.html">methodology</a>.
+  </div>
+</footer>
+
+<script src="js/companies.js"></script>
+</body>
+</html>

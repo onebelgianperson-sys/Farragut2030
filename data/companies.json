@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "deepward-marine",
+    "name": "Deepward Marine Systems",
+    "placeholder": true,
+    "country": "United States",
+    "founded": 2016,
+    "focus": "Naval / Underwater",
+    "autonomyLevel": "Fully autonomous (AUV)",
+    "website": "https://example.com/deepward-marine",
+    "summary": "Placeholder entry. Deepward Marine Systems develops autonomous underwater vehicles (AUVs) for mine detection and neutralization in littoral waters, using synthetic-aperture sonar and onboard classification models.",
+    "products": [
+      {
+        "name": "Tideglass AUV",
+        "description": "Placeholder product description: a torpedo-shaped autonomous underwater vehicle for mine-like object detection using synthetic-aperture sonar."
+      },
+      {
+        "name": "Wrackline Neutralizer",
+        "description": "Placeholder product description: an expendable ROV payload for remote mine neutralization, deployed from surface or subsurface motherships."
+      }
+    ],
+    "contracts": [
+      "Placeholder: engaged in a multi-year mine countermeasures technology demonstration with a national navy (illustrative only)."
+    ],
+    "funding": "Placeholder: reported venture and government-research funding rounds; figures not yet verified.",
+    "sources": [
+      { "label": "Company website (placeholder)", "url": "https://example.com/deepward-marine" }
+    ]
+  },
+  {
+    "slug": "iron-fathom-robotics",
+    "name": "Iron Fathom Robotics",
+    "placeholder": true,
+    "country": "United Kingdom",
+    "founded": 2013,
+    "focus": "Naval / Underwater",
+    "autonomyLevel": "Supervised autonomy",
+    "website": "https://example.com/iron-fathom-robotics",
+    "summary": "Placeholder entry. Iron Fathom Robotics builds unmanned surface vessels (USVs) that tow sonar arrays for wide-area mine hunting, designed to keep crewed vessels out of mined waters.",
+    "products": [
+      {
+        "name": "Halberd USV",
+        "description": "Placeholder product description: an unmanned surface vessel towing a synthetic-aperture sonar array for area mine reconnaissance."
+      }
+    ],
+    "contracts": [
+      "Placeholder: illustrative framework agreement supporting a NATO-affiliated mine countermeasures programme."
+    ],
+    "funding": "Placeholder: privately held; funding history not yet verified.",
+    "sources": [
+      { "label": "Company website (placeholder)", "url": "https://example.com/iron-fathom-robotics" }
+    ]
+  },
+  {
+    "slug": "sable-current-defense",
+    "name": "Sable Current Defense",
+    "placeholder": true,
+    "country": "Australia",
+    "founded": 2019,
+    "focus": "Naval / Underwater",
+    "autonomyLevel": "Fully autonomous (swarm)",
+    "website": "https://example.com/sable-current-defense",
+    "summary": "Placeholder entry. Sable Current Defense is developing swarms of small autonomous underwater gliders intended to cooperatively map minefields and relay classification data to a command vessel.",
+    "products": [
+      {
+        "name": "Glasswing Glider",
+        "description": "Placeholder product description: a low-cost autonomous underwater glider designed for coordinated, swarm-based minefield mapping."
+      },
+      {
+        "name": "Current Mesh C2",
+        "description": "Placeholder product description: a command-and-control software suite for coordinating multiple autonomous underwater assets."
+      }
+    ],
+    "contracts": [
+      "Placeholder: illustrative research grant from a national defense innovation fund."
+    ],
+    "funding": "Placeholder: seed and Series A rounds reported; figures not yet verified.",
+    "sources": [
+      { "label": "Company website (placeholder)", "url": "https://example.com/sable-current-defense" }
+    ]
+  },
+  {
+    "slug": "north-anchor-uxo",
+    "name": "North Anchor UXO Solutions",
+    "placeholder": true,
+    "country": "Norway",
+    "founded": 2011,
+    "focus": "Land / UXO",
+    "autonomyLevel": "Remote-operated with autonomous survey mode",
+    "website": "https://example.com/north-anchor-uxo",
+    "summary": "Placeholder entry. North Anchor UXO Solutions builds tracked robotic platforms for landmine and unexploded ordnance (UXO) survey and clearance, combining ground-penetrating radar with autonomous route planning for humanitarian demining.",
+    "products": [
+      {
+        "name": "Furrow-9 Platform",
+        "description": "Placeholder product description: a tracked robotic vehicle equipped with ground-penetrating radar for landmine and UXO detection in humanitarian clearance operations."
+      }
+    ],
+    "contracts": [
+      "Placeholder: illustrative partnership with a humanitarian demining NGO for field trials."
+    ],
+    "funding": "Placeholder: grant-funded with some private investment; figures not yet verified.",
+    "sources": [
+      { "label": "Company website (placeholder)", "url": "https://example.com/north-anchor-uxo" }
+    ]
+  }
+]
